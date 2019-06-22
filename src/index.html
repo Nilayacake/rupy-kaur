@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Rupy Kaur Psychological Services</title>
 
-    <!-- CDN links to Bootstrap and jQuery files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -12,47 +11,52 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-
   </head>
   
   <body>
-    <nav class="navbar fixed-top navbar-expand-sm">
-      <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar-main">
+    <nav class="navbar fixed-top navbar-expand-md">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-main">
         <i class="fas fa-bars"></i>
       </button>
-  
+    
       <div class="collapse navbar-collapse" id="navbar-main">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#coaching">Coaching</a>
-              <a class="dropdown-item" href="#keynote-speaking">Keynote Speaking</a>
-              <a class="dropdown-item" href="#consultancy">Consultancy</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#vlog">Vlog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.facebook.com/RupyKaurGlobal/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.instagram.com/rupykaur87/" target="_blank"><i class="fab fa-instagram"></i></a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.youtube.com/rupykaur87" target="_blank"><i class="fab fa-youtube"></i></a>
-          </li>
-        </ul>
+        <div class="mx-auto" id="navbar-border">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#coaching">Coaching</a>
+                <a class="dropdown-item" href="#keynote-speaking">Keynote Speaking</a>
+                <a class="dropdown-item" href="#consultancy">Consultancy</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vlog">Vlog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <!-- To-do: Display these inline on xs screens -->
+            <li class="nav-item">
+              <a class="nav-link navbar-social"  id="navbar-divider" href="https://www.facebook.com/RupyKaurGlobal/" target="_blank"><i
+                  class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item navbar-social">
+              <a class="nav-link" href="https://www.instagram.com/rupykaur87/" target="_blank"><i
+                  class="fab fa-instagram"></i></a>
+            </li>
+            <li class="nav-item navbar-social">
+              <a class="nav-link" href="https://www.youtube.com/rupykaur87" target="_blank"><i
+                  class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   
@@ -69,7 +73,7 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-8 bordered-box stacked-box-mobile">
             <h2>Hello!</h2>
             <p>I’m Rupy – Lifestyle and Psychology Coach.</p>
             <p>I’m committed to Liberating your Empowered Self.</p>
@@ -110,10 +114,10 @@
           <p>Rupy is an amazing person and she has given me a renewed zest for life. I find myself wondering less and less
             ‘if’ I will achieve my dreams and wondering more and more ‘when’. <i class="fas fa-quote-right"></i></p>
           <div class="row">
-            <div class="col-4">
+            <div class="col-4 testimonial-left">
               <i class="fas fa-user"></i>
             </div>
-            <div class="col-8">
+            <div class="col-8 testimonial-right">
               <h5>Jack Newton</h5>
               <p>1-to-1 Online Coaching</p>
             </div>
@@ -122,7 +126,7 @@
         </div>
       </div>
   
-      <div class="row">
+      <div class="row section-start">
         <div class="col">
           <h2>Catch Up On My Recent Videos</h2>
         </div>
@@ -193,21 +197,21 @@
       </div>
       <div class="row">
         <div class="col">
-          <p>Visit my vlog to follow my journey on Liberation and Empowerment</p>
+          <p id="vlog-text">Visit my vlog to follow my journey on Liberation and Empowerment</p>
           <a href="#vlog" class="btn">Watch More</a>
         </div>
       </div>
   
-      <div class="row">
+      <div class="row section-start">
         <div class="col">
           <hr>
           <p><i class="fas fa-quote-left"></i> Rupy Kaur changed my life, and I honestly mean that. <i
               class="fas fa-quote-right"></i></p>
           <div class="row">
-            <div class="col-4">
+            <div class="col-4  testimonial-left">
               <i class="fas fa-user"></i>
             </div>
-            <div class="col-8">
+            <div class="col-8  testimonial-right">
               <h5>Preeti Sarai</h5>
               <p>1-to-1 Online Coaching</p>
             </div>
@@ -217,16 +221,16 @@
       </div>
     </div>
   
-    <div class="container-fluid">
+    <div class="container-fluid container-ferns">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col bordered-box">
             <h2>Get a Free 1-to-1 Empowerment Session with Rupy</h2>
-            <p>You will receive:</p>
-            <ul>
-              <li>30 minutes 1-to-1 personalised coaching with Rupy</li>
-              <li>A complimentary, backed by science Wellbeing Prescription to move your life forwards</li>
-              <li>Complimentary 10 Super Simple Self Care Secrets worksheet</li>
+            <h5>You will receive:</h5>
+            <ul class="no-bullets">
+              <li><i class="fas fa-check"></i> 30 minutes 1-to-1 personalised coaching with Rupy</li>
+              <li><i class="fas fa-check"></i> A complimentary, backed by science Wellbeing Prescription to move your life forwards</li>
+              <li><i class="fas fa-check"></i> Complimentary 10 Super Simple Self Care Secrets worksheet</li>
             </ul>
             <button type="button" class="btn" data-toggle="modal" data-target="#modal-empowerment">Claim Now</button>
           </div>
@@ -255,7 +259,7 @@
                 <div class="invalid-feedback">This field is required.</div>
               </div>
               <div class="form-group">
-                <label for="country">Select Country:</label>
+                <label for="country">Select Country: *</label>
                 <select class="form-control" id="country" required>
                   <option selected value=""></option>
                   <option value="AF">Afghanistan</option>
@@ -509,28 +513,28 @@
                 <div class="invalid-feedback">Please select a country.</div>
               </div>
               <div class="form-group">
-                <label for="city">City:</label>
+                <label for="city">City: *</label>
                 <input type="text" class="form-control" id="city" placeholder="Enter city" name="city" required>
                 <div class="invalid-feedback">This field is required.</div>
               </div>
               <div class="form-group">
-                <label for="q1">In a sentence or two, tell me a bit about yourself and your background:</label>
+                <label for="q1">In a sentence or two, tell me a bit about yourself and your background: *</label>
                 <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
                 <div class="invalid-feedback">This field is required.</div>
               </div>
               <div class="form-group">
-                <label for="q1">What 3 challenges would you like to overcome in the nest 3 months?</label>
+                <label for="q1">What 3 challenges would you like to overcome in the nest 3 months? *</label>
                 <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
                 <div class="invalid-feedback">This field is required.</div>
               </div>
               <div class="form-group">
-                <label for="q1">Why is it important for you to overcome these challenges?</label>
+                <label for="q1">Why is it important for you to overcome these challenges? *</label>
                 <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
                 <div class="invalid-feedback">This field is required.</div>
               </div>
               <div class="form-group">
                 <label for="radios">On a scale of 1-10, with 1 being not at all and 10 being extremely, how motivated are
-                  you to overcome your challenges?</label>
+                  you to overcome your challenges? *</label>
                 <div class="form-check-inline">
                   <label class="form-check-label" for="radio1">1</label>
                   <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" required>
@@ -570,7 +574,7 @@
                 <div class="form-check-inline">
                   <label class="form-check-label" for="radio10">10</label>
                   <input type="radio" class="form-check-input" id="radio10" name="optradio" value="option10" required>
-                  <!-- Invalid text should display on seperate line -->
+                  <!-- To-do: Invalid text should display on seperate line -->
                   <div class="invalid-feedback" id="radio-invalid">Please select an option.</p>
                   </div>
                 </div>
@@ -583,7 +587,7 @@
                   <div class="invalid-feedback">Check this checkbox to continue.</div>
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn">Submit</button>
             </form>
           </div>
   
@@ -592,74 +596,74 @@
     </div>
   
     <div class="container-fluid">
-      <div class="container">
+      <div class="container" id="container-links">
         <div class="row">
-          <div class="col">
+          <div class="col col-bordered">
             <h4>Useful Links</h4>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="#modal-empowerment" data-toggle="modal"><i class="fas fa-calendar-alt"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="#modal-empowerment" data-toggle="modal">Book a free Empowerment Session with me</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="#vlog"><i class="fas fa-video"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="#vlog">Check out my vlog</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="#about"><i class="fas fa-user-alt"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="#about">Read more about me</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="#about"><i class="fas fa-users"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="#consultancy">Find out how I can help your team</a>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-bordered">
             <h4>Get In Touch</h4>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="#contact"><i class="fas fa-envelope"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="#contact">Contact me</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="https://www.facebook.com/RupyKaurGlobal/" target="_blank"><i class="fab fa-facebook-f"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="https://www.facebook.com/RupyKaurGlobal/" target="_blank">Facebook</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="https://www.instagram.com/rupykaur87/" target="_blank"><i class="fab fa-instagram"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="https://www.instagram.com/rupykaur87/" target="_blank">Instagram</a>
               </div>
             </div>
             <div class="row">
-              <div class="col-1">
+              <div class="col-1 link-item">
                 <a href="https://www.youtube.com/rupykaur87" target="_blank"><i class="fab fa-youtube"></i></a>
               </div>
-              <div class="col=11">
+              <div class="col=11 link-item">
                 <a href="https://www.youtube.com/rupykaur87" target="_blank">YouTube</a>
               </div>
             </div>
@@ -672,13 +676,13 @@
       <div class="container">
         <div class="row">
           <div class="mx-auto">
-            <a href="#privacy" target="_blank">Privacy Policy</a>
-            <a href="#terms" target="_blank">Terms & Conditions</a>
-            <a href="#disclaimer" target="_blank">Disclaimer</a>
+            <a class="footer-item" href="#privacy" target="_blank">Privacy Policy</a>
+            <a class="footer-item" href="#terms" target="_blank">Terms & Conditions</a>
+            <a class="footer-item" href="#disclaimer" target="_blank">Disclaimer</a>
           </div>
         </div>
         <div class="row">
-          <div class="mx-auto">
+          <div class="mx-auto footer-item">
             <span>&copy;</span>
             <span> Rupy Kaur 2019</span>
           </div>
