@@ -91,8 +91,8 @@ header {
   background-color: #0388a8;
 }
 
-.container-ferns {
-  background-image: url("images\Fern Background.jpg");
+/* To-do: Add fern background image */
+.container-light {
   background-color: #7ad0e8;
 }
 
