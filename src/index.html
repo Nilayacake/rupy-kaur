@@ -1,693 +1,670 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Rupy Kaur Psychological Services</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  
-  <body>
-    <nav class="navbar fixed-top navbar-expand-md">
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-main">
-        <i class="fas fa-bars"></i>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbar-main">
-        <div class="mx-auto" id="navbar-border">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#coaching">Coaching</a>
-                <a class="dropdown-item" href="#keynote-speaking">Keynote Speaking</a>
-                <a class="dropdown-item" href="#consultancy">Consultancy</a>
+<head>
+  <meta charset="utf-8">
+  <title>Rupy Kaur Psychological Services</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-md">
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-main">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar-main">
+      <div class="mx-auto" id="navbar-border">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#coaching">Coaching</a>
+              <a class="dropdown-item" href="#keynote-speaking">Keynote Speaking</a>
+              <a class="dropdown-item" href="#consultancy">Consultancy</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#vlog">Vlog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navbar-social" id="navbar-divider" href="https://www.facebook.com/RupyKaurGlobal/"
+              target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item navbar-social">
+            <a class="nav-link" href="https://www.instagram.com/rupykaur87/" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item navbar-social">
+            <a class="nav-link" href="https://www.youtube.com/rupykaur87" target="_blank"><i
+                class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="logo.png" alt="Rupy Kaur logo" id="img-header">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 bordered-box stacked-box-mobile">
+          <h2>Hello!</h2>
+          <p>I’m Rupy – Lifestyle and Psychology Coach.</p>
+          <p>I’m committed to Liberating your Empowered Self.</p>
+          <p>My mission is to empower a million people to realise that they can live the life that they truly desire.
+          </p>
+          <p>Are you one of these people?</p>
+          <a href="#about" class="btn">Learn More</a>
+        </div>
+        <div class="col-md-4">
+          <img src="rupy-photo.jpg" alt="Photo of Rupy" class="img-bordered">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <hr>
+        <p><i class="fas fa-quote-left"></i> I was always sceptical of life coaches until I met Rupy. She started
+          coaching
+          me at a particularly difficult time in my life. I was depressed and without a Job. I had been doing therapy
+          for
+          years and while I understood
+          myself very well, I wasn’t getting the practical skills I needed to move onwards and upwards with my life.</p>
+        <p>Rupy came in like a hurricane of positivity. With the help of some exercises she was able to understand some
+          of
+          the major issues holding me back. Stuff it had taken me years to identify with traditional therapies. She made
+          the exercises really easy
+          and enjoyable to do by talking me through them and then giving me her own answers, so I had a comparison to
+          gauge my own answers.</p>
+        <p>Rupy is supportive without being condescending. Inspirational without being a quack and one of the most
+          authentic people I have had the pleasure of talking to. I was inspired by Rupy and her story before I even met
+          her and my admiration for her
+          has only grown in the weeks she has been coaching me. Rupy has this ability to shrink problems down, however
+          big
+          and scary they may seem. Her fighting spirit is guaranteed to rub off on you!</p>
+        <p>Rupy is an amazing person and she has given me a renewed zest for life. I find myself wondering less and less
+          ‘if’ I will achieve my dreams and wondering more and more ‘when’. <i class="fas fa-quote-right"></i></p>
+        <div class="row">
+          <div class="col-5 testimonial-left">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="col-7 testimonial-right">
+            <h5>Jack Newton</h5>
+            <p>1-to-1 Online Coaching</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row section-start">
+      <div class="col">
+        <h2>Catch Up On My Recent Videos</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://img.youtube.com/vi/fmQncAsj0RM/mqdefault.jpg" alt="Video thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Car Trouble!</h5>
+            <p class="card-text">Rupy Tuesday Episode 17</p>
+            <a href="#vlog" class="btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://img.youtube.com/vi/TBJCcPB-d-s/mqdefault.jpg" alt="Video thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Forgiveness</h5>
+            <p class="card-text">Rupy Tuesday Episode 16</p>
+            <a href="#vlog" class="btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://img.youtube.com/vi/oMknTWq3sW0/mqdefault.jpg" alt="Video thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Interview with Andy Wack</h5>
+            <p class="card-text">Rupy Tuesday Episode 12</p>
+            <a href="#vlog" class="btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://img.youtube.com/vi/Kk_6W7d6pbU/mqdefault.jpg" alt="Video thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Learning How to Challenge Yourself</h5>
+            <p class="card-text">Rupy Tuesday Episode 14</p>
+            <a href="#vlog" class="btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://img.youtube.com/vi/TrVOIKyWLVk/mqdefault.jpg" alt="Video thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Getting Out of a Negative Sprial</h5>
+            <p class="card-text">Rupy Tuesday Episode 13</p>
+            <a href="#vlog" class="btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top" src="https://img.youtube.com/vi/F5_0BcJZ-cU/mqdefault.jpg" alt="Video thumbnail">
+          <div class="card-body">
+            <h5 class="card-title">Interview with Jennifer Duffee</h5>
+            <p class="card-text">Rupy Tuesday Episode 15</p>
+            <a href="#vlog" class="btn">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p id="vlog-text">Visit my vlog to follow my journey on Liberation and Empowerment</p>
+        <a href="#vlog" class="btn">Watch More</a>
+      </div>
+    </div>
+
+    <div class="row section-start">
+      <div class="col">
+        <hr>
+        <p><i class="fas fa-quote-left"></i> Rupy Kaur changed my life, and I honestly mean that. <i
+            class="fas fa-quote-right"></i></p>
+        <div class="row">
+          <div class="col-5  testimonial-left">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="col-7  testimonial-right">
+            <h5>Preeti Sarai</h5>
+            <p>1-to-1 Online Coaching</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid container-bg-img">
+    <div class="container">
+      <div class="row">
+        <div class="col bordered-box" id="empowerment-box">
+          <h2>Get a Free 1-to-1 Empowerment Session with Rupy</h2>
+          <h5>You will receive:</h5>
+          <ul class="no-bullets">
+            <li class="list-check"><i class="fas fa-check"></i> 30 minutes 1-to-1 personalised coaching with Rupy</li>
+            <li class="list-check"><i class="fas fa-check"></i> A complimentary, backed by science Wellbeing
+              Prescription to move your life forwards</li>
+            <li class="list-check"><i class="fas fa-check"></i> Complimentary 10 Super Simple Self Care Secrets
+              worksheet</li>
+          </ul>
+          <button type="button" class="btn" data-toggle="modal" data-target="#modal-empowerment">Claim Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-empowerment">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Claim Your Free Empowerment Session</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form action="/action_page.php" class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+              <div class="invalid-feedback">This field is required.</div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address*</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email address" name="email"
+                required>
+              <div class="invalid-feedback">This field is required.</div>
+            </div>
+            <div class="form-group">
+              <label for="country">Select Country: *</label>
+              <select class="form-control" id="country" required>
+                <option selected value=""></option>
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AS">American Samoa</option>
+                <option value="AD">Andorra</option>
+                <option value="AG">Angola</option>
+                <option value="AI">Anguilla</option>
+                <option value="AG">Antigua &amp; Barbuda</option>
+                <option value="AR">Argentina</option>
+                <option value="AA">Armenia</option>
+                <option value="AW">Aruba</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia</option>
+                <option value="BL">Bonaire</option>
+                <option value="BA">Bosnia &amp; Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BR">Brazil</option>
+                <option value="BC">British Indian Ocean Ter</option>
+                <option value="BN">Brunei</option>
+                <option value="BG">Bulgaria</option>
+                <option value="BF">Burkina Faso</option>
+                <option value="BI">Burundi</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CA">Canada</option>
+                <option value="IC">Canary Islands</option>
+                <option value="CV">Cape Verde</option>
+                <option value="KY">Cayman Islands</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CD">Channel Islands</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CI">Christmas Island</option>
+                <option value="CS">Cocos Island</option>
+                <option value="CO">Colombia</option>
+                <option value="CC">Comoros</option>
+                <option value="CG">Congo</option>
+                <option value="CK">Cook Islands</option>
+                <option value="CR">Costa Rica</option>
+                <option value="CT">Cote D'Ivoire</option>
+                <option value="HR">Croatia</option>
+                <option value="CU">Cuba</option>
+                <option value="CB">Curacao</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">Dominica</option>
+                <option value="DO">Dominican Republic</option>
+                <option value="TM">East Timor</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FA">Falkland Islands</option>
+                <option value="FO">Faroe Islands</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GF">French Guiana</option>
+                <option value="PF">French Polynesia</option>
+                <option value="FS">French Southern Ter</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GI">Gibraltar</option>
+                <option value="GB">Great Britain</option>
+                <option value="GR">Greece</option>
+                <option value="GL">Greenland</option>
+                <option value="GD">Grenada</option>
+                <option value="GP">Guadeloupe</option>
+                <option value="GU">Guam</option>
+                <option value="GT">Guatemala</option>
+                <option value="GN">Guinea</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HW">Hawaii</option>
+                <option value="HN">Honduras</option>
+                <option value="HK">Hong Kong</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IA">Iran</option>
+                <option value="IQ">Iraq</option>
+                <option value="IR">Ireland</option>
+                <option value="IM">Isle of Man</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="JM">Jamaica</option>
+                <option value="JP">Japan</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KE">Kenya</option>
+                <option value="KI">Kiribati</option>
+                <option value="NK">Korea North</option>
+                <option value="KS">Korea South</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Laos</option>
+                <option value="LV">Latvia</option>
+                <option value="LB">Lebanon</option>
+                <option value="LS">Lesotho</option>
+                <option value="LR">Liberia</option>
+                <option value="LY">Libya</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MO">Macau</option>
+                <option value="MK">Macedonia</option>
+                <option value="MG">Madagascar</option>
+                <option value="MY">Malaysia</option>
+                <option value="MW">Malawi</option>
+                <option value="MV">Maldives</option>
+                <option value="ML">Mali</option>
+                <option value="MT">Malta</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MQ">Martinique</option>
+                <option value="MR">Mauritania</option>
+                <option value="MU">Mauritius</option>
+                <option value="ME">Mayotte</option>
+                <option value="MX">Mexico</option>
+                <option value="MI">Midway Islands</option>
+                <option value="MD">Moldova</option>
+                <option value="MC">Monaco</option>
+                <option value="MN">Mongolia</option>
+                <option value="MS">Montserrat</option>
+                <option value="MA">Morocco</option>
+                <option value="MZ">Mozambique</option>
+                <option value="MM">Myanmar</option>
+                <option value="NA">Nambia</option>
+                <option value="NU">Nauru</option>
+                <option value="NP">Nepal</option>
+                <option value="AN">Netherland Antilles</option>
+                <option value="NL">Netherlands (Holland, Europe)</option>
+                <option value="NV">Nevis</option>
+                <option value="NC">New Caledonia</option>
+                <option value="NZ">New Zealand</option>
+                <option value="NI">Nicaragua</option>
+                <option value="NE">Niger</option>
+                <option value="NG">Nigeria</option>
+                <option value="NW">Niue</option>
+                <option value="NF">Norfolk Island</option>
+                <option value="NO">Norway</option>
+                <option value="OM">Oman</option>
+                <option value="PK">Pakistan</option>
+                <option value="PW">Palau Island</option>
+                <option value="PS">Palestine</option>
+                <option value="PA">Panama</option>
+                <option value="PG">Papua New Guinea</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Peru</option>
+                <option value="PH">Philippines</option>
+                <option value="PO">Pitcairn Island</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="QA">Qatar</option>
+                <option value="ME">Republic of Montenegro</option>
+                <option value="RS">Republic of Serbia</option>
+                <option value="RE">Reunion</option>
+                <option value="RO">Romania</option>
+                <option value="RU">Russia</option>
+                <option value="RW">Rwanda</option>
+                <option value="NT">St Barthelemy</option>
+                <option value="EU">St Eustatius</option>
+                <option value="HE">St Helena</option>
+                <option value="KN">St Kitts-Nevis</option>
+                <option value="LC">St Lucia</option>
+                <option value="MB">St Maarten</option>
+                <option value="PM">St Pierre &amp; Miquelon</option>
+                <option value="VC">St Vincent &amp; Grenadines</option>
+                <option value="SP">Saipan</option>
+                <option value="SO">Samoa</option>
+                <option value="AS">Samoa American</option>
+                <option value="SM">San Marino</option>
+                <option value="ST">Sao Tome &amp; Principe</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="SN">Senegal</option>
+                <option value="RS">Serbia</option>
+                <option value="SC">Seychelles</option>
+                <option value="SL">Sierra Leone</option>
+                <option value="SG">Singapore</option>
+                <option value="SK">Slovakia</option>
+                <option value="SI">Slovenia</option>
+                <option value="SB">Solomon Islands</option>
+                <option value="OI">Somalia</option>
+                <option value="ZA">South Africa</option>
+                <option value="ES">Spain</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="SD">Sudan</option>
+                <option value="SR">Suriname</option>
+                <option value="SZ">Swaziland</option>
+                <option value="SE">Sweden</option>
+                <option value="CH">Switzerland</option>
+                <option value="SY">Syria</option>
+                <option value="TA">Tahiti</option>
+                <option value="TW">Taiwan</option>
+                <option value="TJ">Tajikistan</option>
+                <option value="TZ">Tanzania</option>
+                <option value="TH">Thailand</option>
+                <option value="TG">Togo</option>
+                <option value="TK">Tokelau</option>
+                <option value="TO">Tonga</option>
+                <option value="TT">Trinidad &amp; Tobago</option>
+                <option value="TN">Tunisia</option>
+                <option value="TR">Turkey</option>
+                <option value="TU">Turkmenistan</option>
+                <option value="TC">Turks &amp; Caicos Is</option>
+                <option value="TV">Tuvalu</option>
+                <option value="UG">Uganda</option>
+                <option value="UA">Ukraine</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States of America</option>
+                <option value="UY">Uruguay</option>
+                <option value="UZ">Uzbekistan</option>
+                <option value="VU">Vanuatu</option>
+                <option value="VS">Vatican City State</option>
+                <option value="VE">Venezuela</option>
+                <option value="VN">Vietnam</option>
+                <option value="VB">Virgin Islands (Brit)</option>
+                <option value="VA">Virgin Islands (USA)</option>
+                <option value="WK">Wake Island</option>
+                <option value="WF">Wallis &amp; Futana Is</option>
+                <option value="YE">Yemen</option>
+                <option value="ZR">Zaire</option>
+                <option value="ZM">Zambia</option>
+                <option value="ZW">Zimbabwe</option>
+              </select>
+              <div class="invalid-feedback">Please select a country.</div>
+            </div>
+            <div class="form-group">
+              <label for="city">City: *</label>
+              <input type="text" class="form-control" id="city" placeholder="Enter city" name="city" required>
+              <div class="invalid-feedback">This field is required.</div>
+            </div>
+            <div class="form-group">
+              <label for="q1">In a sentence or two, tell me a bit about yourself and your background: *</label>
+              <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
+              <div class="invalid-feedback">This field is required.</div>
+            </div>
+            <div class="form-group">
+              <label for="q1">What 3 challenges would you like to overcome in the nest 3 months? *</label>
+              <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
+              <div class="invalid-feedback">This field is required.</div>
+            </div>
+            <div class="form-group">
+              <label for="q1">Why is it important for you to overcome these challenges? *</label>
+              <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
+              <div class="invalid-feedback">This field is required.</div>
+            </div>
+            <div class="form-group">
+              <label for="radios">On a scale of 1-10, with 1 being not at all and 10 being extremely, how motivated are
+                you to overcome your challenges? *</label>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio1">1</label>
+                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" required>
               </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio2">2</label>
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio3">3</label>
+                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option3" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio4">4</label>
+                <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio5">5</label>
+                <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio6">6</label>
+                <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio7">7</label>
+                <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio8">8</label>
+                <input type="radio" class="form-check-input" id="radio8" name="optradio" value="option8" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio9">9</label>
+                <input type="radio" class="form-check-input" id="radio9" name="optradio" value="option9" required>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label" for="radio10">10</label>
+                <input type="radio" class="form-check-input" id="radio10" name="optradio" value="option10" required>
+                <div class="invalid-feedback" id="radio-invalid">Please select an option.</p>
+                </div>
+              </div>
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember" required> I have read and accept the <a
+                  href="#terms" target="_blank">Terms & Conditions</a> and <a href="#privacy" target="_blank">Privacy
+                  Policy</a>.
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+              </label>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container" id="container-links">
+      <div class="row">
+        <div class="col col-bordered">
+          <h4>Useful Links</h4>
+          <ul class="no-bullets">
+            <li class="link-item">
+              <a href="#modal-empowerment" data-toggle="modal"><i class="fas fa-calendar-alt"></i> Book a free
+                Empowerment
+                Session with me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#vlog">Vlog</a>
+            <li class="link-item">
+              <a href="#vlog"><i class="fas fa-video"></i> Check out my vlog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+            <li class="link-item">
+              <a href="#about"><i class="fas fa-user-alt"></i> Read more about me</a>
             </li>
-            <!-- To-do: Display these inline on xs screens -->
-            <li class="nav-item">
-              <a class="nav-link navbar-social"  id="navbar-divider" href="https://www.facebook.com/RupyKaurGlobal/" target="_blank"><i
-                  class="fab fa-facebook-f"></i></a>
+            <li class="link-item">
+              <a href="#consultancy"><i class="fas fa-users"></i> Find out how I can help your team</a>
             </li>
-            <li class="nav-item navbar-social">
-              <a class="nav-link" href="https://www.instagram.com/rupykaur87/" target="_blank"><i
-                  class="fab fa-instagram"></i></a>
+          </ul>
+        </div>
+        <div class="col col-bordered">
+          <h4>Get In Touch</h4>
+          <ul class="no-bullets">
+            <li class="link-item">
+              <a href="#contact"><i class="fas fa-envelope"></i> Contact me</a>
             </li>
-            <li class="nav-item navbar-social">
-              <a class="nav-link" href="https://www.youtube.com/rupykaur87" target="_blank"><i
-                  class="fab fa-youtube"></i></a>
+            <li class="link-item">
+              <a href="https://www.facebook.com/RupyKaurGlobal/" target="_blank"><i class="fab fa-facebook-f"></i>
+                Facebook</a>
+            </li>
+            <li class="link-item">
+              <a href="https://www.instagram.com/rupykaur87/" target="_blank"><i class="fab fa-instagram"></i>
+                Instagram</a>
+            </li>
+            <li class="link-item">
+              <a href="https://www.youtube.com/rupykaur87" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-  
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="images\Logo.png" alt="Rupy Kaur logo" id="img-header">
-          </div>
-        </div>
-      </div>
-    </header>
-  
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 bordered-box stacked-box-mobile">
-            <h2>Hello!</h2>
-            <p>I’m Rupy – Lifestyle and Psychology Coach.</p>
-            <p>I’m committed to Liberating your Empowered Self.</p>
-            <p>My mission is to empower a million people to realise that they can live the life that they truly desire.
-            </p>
-            <p>Are you one of these people?</p>
-            <a href="#about" class="btn">Learn More</a>
-          </div>
-          <div class="col-md-4">
-            <img src="images\Rupy photo.jpg" alt="Photo of Rupy" class="img-bordered">
-          </div>
-        </div>
-      </div>
     </div>
-  
+  </div>
+
+  <footer>
     <div class="container">
       <div class="row">
-        <div class="col">
-          <hr>
-          <p><i class="fas fa-quote-left"></i> I was always sceptical of life coaches until I met Rupy. She started
-            coaching
-            me at a particularly difficult time in my life. I was depressed and without a Job. I had been doing therapy
-            for
-            years and while I understood
-            myself very well, I wasn’t getting the practical skills I needed to move onwards and upwards with my life.</p>
-          <p>Rupy came in like a hurricane of positivity. With the help of some exercises she was able to understand some
-            of
-            the major issues holding me back. Stuff it had taken me years to identify with traditional therapies. She made
-            the exercises really easy
-            and enjoyable to do by talking me through them and then giving me her own answers, so I had a comparison to
-            gauge my own answers.</p>
-          <p>Rupy is supportive without being condescending. Inspirational without being a quack and one of the most
-            authentic people I have had the pleasure of talking to. I was inspired by Rupy and her story before I even met
-            her and my admiration for her
-            has only grown in the weeks she has been coaching me. Rupy has this ability to shrink problems down, however
-            big
-            and scary they may seem. Her fighting spirit is guaranteed to rub off on you!</p>
-          <p>Rupy is an amazing person and she has given me a renewed zest for life. I find myself wondering less and less
-            ‘if’ I will achieve my dreams and wondering more and more ‘when’. <i class="fas fa-quote-right"></i></p>
-          <div class="row">
-            <div class="col-4 testimonial-left">
-              <i class="fas fa-user"></i>
-            </div>
-            <div class="col-8 testimonial-right">
-              <h5>Jack Newton</h5>
-              <p>1-to-1 Online Coaching</p>
-            </div>
-          </div>
-          <hr>
-        </div>
-      </div>
-  
-      <div class="row section-start">
-        <div class="col">
-          <h2>Catch Up On My Recent Videos</h2>
+        <div class="mx-auto">
+          <a class="footer-item" href="#privacy" target="_blank">Privacy Policy</a>
+          <a class="footer-item" href="#terms" target="_blank">Terms & Conditions</a>
+          <a class="footer-item" href="#disclaimer" target="_blank">Disclaimer</a>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="https://img.youtube.com/vi/fmQncAsj0RM/mqdefault.jpg" alt="Video thumbnail">
-            <div class="card-body">
-              <h5 class="card-title">Car Trouble!</h5>
-              <p class="card-text">Rupy Tuesday Episode 17</p>
-              <a href="#vlog" class="btn">Watch Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="https://img.youtube.com/vi/TBJCcPB-d-s/mqdefault.jpg" alt="Video thumbnail">
-            <div class="card-body">
-              <h5 class="card-title">Forgiveness</h5>
-              <p class="card-text">Rupy Tuesday Episode 16</p>
-              <a href="#vlog" class="btn">Watch Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="https://img.youtube.com/vi/oMknTWq3sW0/mqdefault.jpg" alt="Video thumbnail">
-            <div class="card-body">
-              <h5 class="card-title">Interview with Andy Wack</h5>
-              <p class="card-text">Rupy Tuesday Episode 12</p>
-              <a href="#vlog" class="btn">Watch Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="https://img.youtube.com/vi/Kk_6W7d6pbU/mqdefault.jpg" alt="Video thumbnail">
-            <div class="card-body">
-              <h5 class="card-title">Learning How to Challenge Yourself</h5>
-              <p class="card-text">Rupy Tuesday Episode 14</p>
-              <a href="#vlog" class="btn">Watch Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="https://img.youtube.com/vi/TrVOIKyWLVk/mqdefault.jpg" alt="Video thumbnail">
-            <div class="card-body">
-              <h5 class="card-title">Getting Out of a Negative Sprial</h5>
-              <p class="card-text">Rupy Tuesday Episode 13</p>
-              <a href="#vlog" class="btn">Watch Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="https://img.youtube.com/vi/F5_0BcJZ-cU/mqdefault.jpg" alt="Video thumbnail">
-            <div class="card-body">
-              <h5 class="card-title">Interview with Jennifer Duffee</h5>
-              <p class="card-text">Rupy Tuesday Episode 15</p>
-              <a href="#vlog" class="btn">Watch Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p id="vlog-text">Visit my vlog to follow my journey on Liberation and Empowerment</p>
-          <a href="#vlog" class="btn">Watch More</a>
-        </div>
-      </div>
-  
-      <div class="row section-start">
-        <div class="col">
-          <hr>
-          <p><i class="fas fa-quote-left"></i> Rupy Kaur changed my life, and I honestly mean that. <i
-              class="fas fa-quote-right"></i></p>
-          <div class="row">
-            <div class="col-4  testimonial-left">
-              <i class="fas fa-user"></i>
-            </div>
-            <div class="col-8  testimonial-right">
-              <h5>Preeti Sarai</h5>
-              <p>1-to-1 Online Coaching</p>
-            </div>
-          </div>
-          <hr>
+        <div class="mx-auto footer-item">
+          <span>&copy;</span>
+          <span> Rupy Kaur 2019</span>
         </div>
       </div>
     </div>
-  
-    <div class="container-fluid container-light">
-      <div class="container">
-        <div class="row">
-          <div class="col bordered-box">
-            <h2>Get a Free 1-to-1 Empowerment Session with Rupy</h2>
-            <h5>You will receive:</h5>
-            <ul class="no-bullets">
-              <li><i class="fas fa-check"></i> 30 minutes 1-to-1 personalised coaching with Rupy</li>
-              <li><i class="fas fa-check"></i> A complimentary, backed by science Wellbeing Prescription to move your life forwards</li>
-              <li><i class="fas fa-check"></i> Complimentary 10 Super Simple Self Care Secrets worksheet</li>
-            </ul>
-            <button type="button" class="btn" data-toggle="modal" data-target="#modal-empowerment">Claim Now</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="modal" id="modal-empowerment">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title">Claim Your Free Empowerment Session</h3>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <div class="modal-body">
-            <form action="/action_page.php" class="needs-validation" novalidate>
-              <div class="form-group">
-                <label for="name">Name *</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
-                <div class="invalid-feedback">This field is required.</div>
-              </div>
-              <div class="form-group">
-                <label for="email">Email address*</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email address" name="email"
-                  required>
-                <div class="invalid-feedback">This field is required.</div>
-              </div>
-              <div class="form-group">
-                <label for="country">Select Country: *</label>
-                <select class="form-control" id="country" required>
-                  <option selected value=""></option>
-                  <option value="AF">Afghanistan</option>
-                  <option value="AL">Albania</option>
-                  <option value="DZ">Algeria</option>
-                  <option value="AS">American Samoa</option>
-                  <option value="AD">Andorra</option>
-                  <option value="AG">Angola</option>
-                  <option value="AI">Anguilla</option>
-                  <option value="AG">Antigua &amp; Barbuda</option>
-                  <option value="AR">Argentina</option>
-                  <option value="AA">Armenia</option>
-                  <option value="AW">Aruba</option>
-                  <option value="AU">Australia</option>
-                  <option value="AT">Austria</option>
-                  <option value="AZ">Azerbaijan</option>
-                  <option value="BS">Bahamas</option>
-                  <option value="BH">Bahrain</option>
-                  <option value="BD">Bangladesh</option>
-                  <option value="BB">Barbados</option>
-                  <option value="BY">Belarus</option>
-                  <option value="BE">Belgium</option>
-                  <option value="BZ">Belize</option>
-                  <option value="BJ">Benin</option>
-                  <option value="BM">Bermuda</option>
-                  <option value="BT">Bhutan</option>
-                  <option value="BO">Bolivia</option>
-                  <option value="BL">Bonaire</option>
-                  <option value="BA">Bosnia &amp; Herzegovina</option>
-                  <option value="BW">Botswana</option>
-                  <option value="BR">Brazil</option>
-                  <option value="BC">British Indian Ocean Ter</option>
-                  <option value="BN">Brunei</option>
-                  <option value="BG">Bulgaria</option>
-                  <option value="BF">Burkina Faso</option>
-                  <option value="BI">Burundi</option>
-                  <option value="KH">Cambodia</option>
-                  <option value="CM">Cameroon</option>
-                  <option value="CA">Canada</option>
-                  <option value="IC">Canary Islands</option>
-                  <option value="CV">Cape Verde</option>
-                  <option value="KY">Cayman Islands</option>
-                  <option value="CF">Central African Republic</option>
-                  <option value="TD">Chad</option>
-                  <option value="CD">Channel Islands</option>
-                  <option value="CL">Chile</option>
-                  <option value="CN">China</option>
-                  <option value="CI">Christmas Island</option>
-                  <option value="CS">Cocos Island</option>
-                  <option value="CO">Colombia</option>
-                  <option value="CC">Comoros</option>
-                  <option value="CG">Congo</option>
-                  <option value="CK">Cook Islands</option>
-                  <option value="CR">Costa Rica</option>
-                  <option value="CT">Cote D'Ivoire</option>
-                  <option value="HR">Croatia</option>
-                  <option value="CU">Cuba</option>
-                  <option value="CB">Curacao</option>
-                  <option value="CY">Cyprus</option>
-                  <option value="CZ">Czech Republic</option>
-                  <option value="DK">Denmark</option>
-                  <option value="DJ">Djibouti</option>
-                  <option value="DM">Dominica</option>
-                  <option value="DO">Dominican Republic</option>
-                  <option value="TM">East Timor</option>
-                  <option value="EC">Ecuador</option>
-                  <option value="EG">Egypt</option>
-                  <option value="SV">El Salvador</option>
-                  <option value="GQ">Equatorial Guinea</option>
-                  <option value="ER">Eritrea</option>
-                  <option value="EE">Estonia</option>
-                  <option value="ET">Ethiopia</option>
-                  <option value="FA">Falkland Islands</option>
-                  <option value="FO">Faroe Islands</option>
-                  <option value="FJ">Fiji</option>
-                  <option value="FI">Finland</option>
-                  <option value="FR">France</option>
-                  <option value="GF">French Guiana</option>
-                  <option value="PF">French Polynesia</option>
-                  <option value="FS">French Southern Ter</option>
-                  <option value="GA">Gabon</option>
-                  <option value="GM">Gambia</option>
-                  <option value="GE">Georgia</option>
-                  <option value="DE">Germany</option>
-                  <option value="GH">Ghana</option>
-                  <option value="GI">Gibraltar</option>
-                  <option value="GB">Great Britain</option>
-                  <option value="GR">Greece</option>
-                  <option value="GL">Greenland</option>
-                  <option value="GD">Grenada</option>
-                  <option value="GP">Guadeloupe</option>
-                  <option value="GU">Guam</option>
-                  <option value="GT">Guatemala</option>
-                  <option value="GN">Guinea</option>
-                  <option value="GY">Guyana</option>
-                  <option value="HT">Haiti</option>
-                  <option value="HW">Hawaii</option>
-                  <option value="HN">Honduras</option>
-                  <option value="HK">Hong Kong</option>
-                  <option value="HU">Hungary</option>
-                  <option value="IS">Iceland</option>
-                  <option value="IN">India</option>
-                  <option value="ID">Indonesia</option>
-                  <option value="IA">Iran</option>
-                  <option value="IQ">Iraq</option>
-                  <option value="IR">Ireland</option>
-                  <option value="IM">Isle of Man</option>
-                  <option value="IL">Israel</option>
-                  <option value="IT">Italy</option>
-                  <option value="JM">Jamaica</option>
-                  <option value="JP">Japan</option>
-                  <option value="JO">Jordan</option>
-                  <option value="KZ">Kazakhstan</option>
-                  <option value="KE">Kenya</option>
-                  <option value="KI">Kiribati</option>
-                  <option value="NK">Korea North</option>
-                  <option value="KS">Korea South</option>
-                  <option value="KW">Kuwait</option>
-                  <option value="KG">Kyrgyzstan</option>
-                  <option value="LA">Laos</option>
-                  <option value="LV">Latvia</option>
-                  <option value="LB">Lebanon</option>
-                  <option value="LS">Lesotho</option>
-                  <option value="LR">Liberia</option>
-                  <option value="LY">Libya</option>
-                  <option value="LI">Liechtenstein</option>
-                  <option value="LT">Lithuania</option>
-                  <option value="LU">Luxembourg</option>
-                  <option value="MO">Macau</option>
-                  <option value="MK">Macedonia</option>
-                  <option value="MG">Madagascar</option>
-                  <option value="MY">Malaysia</option>
-                  <option value="MW">Malawi</option>
-                  <option value="MV">Maldives</option>
-                  <option value="ML">Mali</option>
-                  <option value="MT">Malta</option>
-                  <option value="MH">Marshall Islands</option>
-                  <option value="MQ">Martinique</option>
-                  <option value="MR">Mauritania</option>
-                  <option value="MU">Mauritius</option>
-                  <option value="ME">Mayotte</option>
-                  <option value="MX">Mexico</option>
-                  <option value="MI">Midway Islands</option>
-                  <option value="MD">Moldova</option>
-                  <option value="MC">Monaco</option>
-                  <option value="MN">Mongolia</option>
-                  <option value="MS">Montserrat</option>
-                  <option value="MA">Morocco</option>
-                  <option value="MZ">Mozambique</option>
-                  <option value="MM">Myanmar</option>
-                  <option value="NA">Nambia</option>
-                  <option value="NU">Nauru</option>
-                  <option value="NP">Nepal</option>
-                  <option value="AN">Netherland Antilles</option>
-                  <option value="NL">Netherlands (Holland, Europe)</option>
-                  <option value="NV">Nevis</option>
-                  <option value="NC">New Caledonia</option>
-                  <option value="NZ">New Zealand</option>
-                  <option value="NI">Nicaragua</option>
-                  <option value="NE">Niger</option>
-                  <option value="NG">Nigeria</option>
-                  <option value="NW">Niue</option>
-                  <option value="NF">Norfolk Island</option>
-                  <option value="NO">Norway</option>
-                  <option value="OM">Oman</option>
-                  <option value="PK">Pakistan</option>
-                  <option value="PW">Palau Island</option>
-                  <option value="PS">Palestine</option>
-                  <option value="PA">Panama</option>
-                  <option value="PG">Papua New Guinea</option>
-                  <option value="PY">Paraguay</option>
-                  <option value="PE">Peru</option>
-                  <option value="PH">Philippines</option>
-                  <option value="PO">Pitcairn Island</option>
-                  <option value="PL">Poland</option>
-                  <option value="PT">Portugal</option>
-                  <option value="PR">Puerto Rico</option>
-                  <option value="QA">Qatar</option>
-                  <option value="ME">Republic of Montenegro</option>
-                  <option value="RS">Republic of Serbia</option>
-                  <option value="RE">Reunion</option>
-                  <option value="RO">Romania</option>
-                  <option value="RU">Russia</option>
-                  <option value="RW">Rwanda</option>
-                  <option value="NT">St Barthelemy</option>
-                  <option value="EU">St Eustatius</option>
-                  <option value="HE">St Helena</option>
-                  <option value="KN">St Kitts-Nevis</option>
-                  <option value="LC">St Lucia</option>
-                  <option value="MB">St Maarten</option>
-                  <option value="PM">St Pierre &amp; Miquelon</option>
-                  <option value="VC">St Vincent &amp; Grenadines</option>
-                  <option value="SP">Saipan</option>
-                  <option value="SO">Samoa</option>
-                  <option value="AS">Samoa American</option>
-                  <option value="SM">San Marino</option>
-                  <option value="ST">Sao Tome &amp; Principe</option>
-                  <option value="SA">Saudi Arabia</option>
-                  <option value="SN">Senegal</option>
-                  <option value="RS">Serbia</option>
-                  <option value="SC">Seychelles</option>
-                  <option value="SL">Sierra Leone</option>
-                  <option value="SG">Singapore</option>
-                  <option value="SK">Slovakia</option>
-                  <option value="SI">Slovenia</option>
-                  <option value="SB">Solomon Islands</option>
-                  <option value="OI">Somalia</option>
-                  <option value="ZA">South Africa</option>
-                  <option value="ES">Spain</option>
-                  <option value="LK">Sri Lanka</option>
-                  <option value="SD">Sudan</option>
-                  <option value="SR">Suriname</option>
-                  <option value="SZ">Swaziland</option>
-                  <option value="SE">Sweden</option>
-                  <option value="CH">Switzerland</option>
-                  <option value="SY">Syria</option>
-                  <option value="TA">Tahiti</option>
-                  <option value="TW">Taiwan</option>
-                  <option value="TJ">Tajikistan</option>
-                  <option value="TZ">Tanzania</option>
-                  <option value="TH">Thailand</option>
-                  <option value="TG">Togo</option>
-                  <option value="TK">Tokelau</option>
-                  <option value="TO">Tonga</option>
-                  <option value="TT">Trinidad &amp; Tobago</option>
-                  <option value="TN">Tunisia</option>
-                  <option value="TR">Turkey</option>
-                  <option value="TU">Turkmenistan</option>
-                  <option value="TC">Turks &amp; Caicos Is</option>
-                  <option value="TV">Tuvalu</option>
-                  <option value="UG">Uganda</option>
-                  <option value="UA">Ukraine</option>
-                  <option value="AE">United Arab Emirates</option>
-                  <option value="GB">United Kingdom</option>
-                  <option value="US">United States of America</option>
-                  <option value="UY">Uruguay</option>
-                  <option value="UZ">Uzbekistan</option>
-                  <option value="VU">Vanuatu</option>
-                  <option value="VS">Vatican City State</option>
-                  <option value="VE">Venezuela</option>
-                  <option value="VN">Vietnam</option>
-                  <option value="VB">Virgin Islands (Brit)</option>
-                  <option value="VA">Virgin Islands (USA)</option>
-                  <option value="WK">Wake Island</option>
-                  <option value="WF">Wallis &amp; Futana Is</option>
-                  <option value="YE">Yemen</option>
-                  <option value="ZR">Zaire</option>
-                  <option value="ZM">Zambia</option>
-                  <option value="ZW">Zimbabwe</option>
-                </select>
-                <div class="invalid-feedback">Please select a country.</div>
-              </div>
-              <div class="form-group">
-                <label for="city">City: *</label>
-                <input type="text" class="form-control" id="city" placeholder="Enter city" name="city" required>
-                <div class="invalid-feedback">This field is required.</div>
-              </div>
-              <div class="form-group">
-                <label for="q1">In a sentence or two, tell me a bit about yourself and your background: *</label>
-                <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
-                <div class="invalid-feedback">This field is required.</div>
-              </div>
-              <div class="form-group">
-                <label for="q1">What 3 challenges would you like to overcome in the nest 3 months? *</label>
-                <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
-                <div class="invalid-feedback">This field is required.</div>
-              </div>
-              <div class="form-group">
-                <label for="q1">Why is it important for you to overcome these challenges? *</label>
-                <textarea class="form-control" rows="2" id="q1" name="text" required></textarea>
-                <div class="invalid-feedback">This field is required.</div>
-              </div>
-              <div class="form-group">
-                <label for="radios">On a scale of 1-10, with 1 being not at all and 10 being extremely, how motivated are
-                  you to overcome your challenges? *</label>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio1">1</label>
-                  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio2">2</label>
-                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio3">3</label>
-                  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option3" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio4">4</label>
-                  <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio5">5</label>
-                  <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio6">6</label>
-                  <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio7">7</label>
-                  <input type="radio" class="form-check-input" id="radio7" name="optradio" value="option7" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio8">8</label>
-                  <input type="radio" class="form-check-input" id="radio8" name="optradio" value="option8" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio9">9</label>
-                  <input type="radio" class="form-check-input" id="radio9" name="optradio" value="option9" required>
-                </div>
-                <div class="form-check-inline">
-                  <label class="form-check-label" for="radio10">10</label>
-                  <input type="radio" class="form-check-input" id="radio10" name="optradio" value="option10" required>
-                  <!-- To-do: Invalid text should display on seperate line -->
-                  <div class="invalid-feedback" id="radio-invalid">Please select an option.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" name="remember" required> I have read and accept the <a
-                    href="#terms" target="_blank">Terms & Conditions</a> and <a href="#privacy" target="_blank">Privacy
-                    Policy</a>.
-                  <div class="invalid-feedback">Check this checkbox to continue.</div>
-                </label>
-              </div>
-              <button type="submit" class="btn">Submit</button>
-            </form>
-          </div>
-  
-        </div>
-      </div>
-    </div>
-  
-    <div class="container-fluid">
-      <div class="container" id="container-links">
-        <div class="row">
-          <div class="col col-bordered">
-            <h4>Useful Links</h4>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="#modal-empowerment" data-toggle="modal"><i class="fas fa-calendar-alt"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="#modal-empowerment" data-toggle="modal">Book a free Empowerment Session with me</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="#vlog"><i class="fas fa-video"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="#vlog">Check out my vlog</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="#about"><i class="fas fa-user-alt"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="#about">Read more about me</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="#about"><i class="fas fa-users"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="#consultancy">Find out how I can help your team</a>
-              </div>
-            </div>
-          </div>
-          <div class="col col-bordered">
-            <h4>Get In Touch</h4>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="#contact"><i class="fas fa-envelope"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="#contact">Contact me</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="https://www.facebook.com/RupyKaurGlobal/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="https://www.facebook.com/RupyKaurGlobal/" target="_blank">Facebook</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="https://www.instagram.com/rupykaur87/" target="_blank"><i class="fab fa-instagram"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="https://www.instagram.com/rupykaur87/" target="_blank">Instagram</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 link-item">
-                <a href="https://www.youtube.com/rupykaur87" target="_blank"><i class="fab fa-youtube"></i></a>
-              </div>
-              <div class="col=11 link-item">
-                <a href="https://www.youtube.com/rupykaur87" target="_blank">YouTube</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="mx-auto">
-            <a class="footer-item" href="#privacy" target="_blank">Privacy Policy</a>
-            <a class="footer-item" href="#terms" target="_blank">Terms & Conditions</a>
-            <a class="footer-item" href="#disclaimer" target="_blank">Disclaimer</a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="mx-auto footer-item">
-            <span>&copy;</span>
-            <span> Rupy Kaur 2019</span>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>

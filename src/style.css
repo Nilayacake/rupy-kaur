@@ -9,6 +9,7 @@ a {
 
 a:hover {
   color: #7ad0e8;
+  text-decoration: none;
 }
 
 img {
@@ -88,12 +89,13 @@ header {
 }
 
 .container-fluid {
-  background-color: #0388a8;
+  background-color: #0387a82d;
 }
 
-/* To-do: Add fern background image */
-.container-light {
-  background-color: #7ad0e8;
+.container-bg-img {
+  background: url(fern-background.png);
+  background-size: 600px;
+  padding: 40px 0;
 }
 
 .container {
@@ -102,10 +104,24 @@ header {
 }
 
 .bordered-box {
-  border: 2px solid #7ad0e8;
+  border: 2px solid #0388a8;
   padding: 5px;
   background-color: white;
   padding: 30px;
+}
+
+#empowerment-box {
+  border: 1px solid #a0a0a0;
+  padding: 40px; 
+  margin: 100px;
+  width: auto;
+  background: #fff;
+}
+
+@media (max-width: 768px) {
+  #empowerment-box {
+      margin: 70px;
+  }
 }
 
 @media only screen and (max-width: 765px) {
@@ -116,6 +132,7 @@ header {
 
 h2 {
   color: #0388a8;
+  font-size: 40px;
   margin-bottom: 40px;
 }
 
@@ -145,7 +162,7 @@ h5 {
 }
 
 .img-bordered {
-  border: 2px solid #7ad0e8;
+  border: 2px solid #0388a8;
   padding: 5px;
   position: relative;
   top: 50%;
@@ -184,8 +201,15 @@ hr{
 }
 
 .no-bullets {
-  list-style-type: none;  
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
 }
+
+.list-check {
+  margin: 10px;
+}
+
 .fa-check {
   color: #0388a8;
   padding: 5px;
@@ -211,17 +235,17 @@ hr{
 
 #container-links {
   padding: 5px 0px 0px 0px;
-  font-size: 12pt;
-  color: white;
+  font-size: 14pt;
+  color: #0388a8;
   text-align: left;
 }
 
 #container-links a {
-  color: white;
+  color: #0388a8;
 }
 
 .col-bordered {
-  border: 2px solid #7ad0e8;
+  border: 2px solid #0388a8;
   margin-bottom: -5px;
   padding: 20px;
 }
